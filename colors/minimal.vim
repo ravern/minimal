@@ -4,48 +4,48 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "minimal"
-hi Normal		guifg=#424242	ctermfg=black guibg=#F4F3F1
-hi NonText		guifg=#424242	ctermfg=black
-hi comment		guifg=darkgray		ctermfg=darkgray	gui=italic
-hi constant		guifg=#424242		ctermfg=black
+hi Normal		guifg=#F4F3F1	ctermfg=white guibg=#424242
+hi NonText		guifg=#F4F3F1	ctermfg=white
+hi comment		guifg=darkgray		ctermfg=lightgray	gui=italic
+hi constant		guifg=#F4F3F1		ctermfg=white
 hi string guifg=darkgray ctermfg=darkgray
-hi identifier	guifg=#424242		ctermfg=black
-hi statement	guifg=#424242		ctermfg=black	gui=bold cterm=bold
+hi identifier	guifg=#F4F3F1		ctermfg=white
+hi statement	guifg=#F4F3F1		ctermfg=white	gui=bold cterm=bold
 hi define gui=bold cterm=bold
-hi preproc		guifg=#424242		ctermfg=black
-hi type			guifg=#424242	ctermfg=black	gui=bold cterm=bold
-hi special		guifg=#424242	ctermfg=black	ctermfg=black
-hi Underlined	guifg=#424242		ctermfg=black	gui=underline	cterm=underline
-hi label		guifg=#424242	ctermfg=black
-hi operator		guifg=#424242	ctermfg=black
+hi preproc		guifg=#F4F3F1		ctermfg=white
+hi type			guifg=#F4F3F1	ctermfg=white	gui=bold cterm=bold
+hi special		guifg=#F4F3F1	ctermfg=white	ctermfg=white
+hi Underlined	guifg=#F4F3F1		ctermfg=white	gui=underline	cterm=underline
+hi label		guifg=#F4F3F1	ctermfg=white
+hi operator		guifg=#F4F3F1	ctermfg=white
 hi delimiter guifg=darkgray ctermfg=darkgray gui=NONE cterm=NONE
 
-hi ErrorMsg		guifg=#424242	guifg=#424242	ctermfg=black
-hi WarningMsg	guifg=#424242		ctermfg=black	gui=bold cterm=bold
-hi ModeMsg		guifg=#424242	gui=NONE	ctermfg=black
-hi MoreMsg		guifg=#424242	gui=NONE	ctermfg=black
-hi Error		guifg=#424242		guifg=#424242	gui=underline	ctermfg=black
+hi ErrorMsg		guifg=#F4F3F1	guifg=#F4F3F1	ctermfg=white
+hi WarningMsg	guifg=#F4F3F1		ctermfg=white	gui=bold cterm=bold
+hi ModeMsg		guifg=#F4F3F1	gui=NONE	ctermfg=white
+hi MoreMsg		guifg=#F4F3F1	gui=NONE	ctermfg=white
+hi Error		guifg=#F4F3F1		guifg=#F4F3F1	gui=underline	ctermfg=white
 
-hi Todo			guifg=#424242		guifg=#424242	ctermfg=black	ctermfg=black
-hi Cursor		guifg=#424242		guifg=#424242		ctermfg=black	ctermfg=black
-hi Search		guifg=#424242		guifg=#424242	ctermfg=black	ctermfg=black
-hi IncSearch	guifg=#424242		guifg=#424242	ctermfg=black	ctermfg=black
-hi LineNr		guifg=#424242		ctermfg=black
-hi title		guifg=#424242	gui=bold	cterm=bold
+hi Todo			guifg=#F4F3F1		guifg=#F4F3F1	ctermfg=white	ctermfg=white
+hi Cursor		guifg=#F4F3F1		guifg=#F4F3F1		ctermfg=white	ctermfg=white
+hi Search		guifg=#F4F3F1		guifg=#F4F3F1	ctermfg=white	ctermfg=white
+hi IncSearch	guifg=#F4F3F1		guifg=#F4F3F1	ctermfg=white	ctermfg=white
+hi LineNr		guifg=#F4F3F1		ctermfg=white
+hi title		guifg=#F4F3F1	gui=bold	cterm=bold
 
-hi StatusLine    cterm=none gui=none    guifg=white ctermfg=white guibg=black ctermbg=black
+hi StatusLine    cterm=none gui=none    guifg=white ctermfg=white guibg=white ctermbg=white
 hi StatusLineNC  cterm=none gui=none    guifg=fg    ctermfg=fg    guibg=#cccbca ctermbg=white
-hi VertSplit     gui=none   guifg=#424242 guifg=#424242 ctermfg=black ctermfg=black
+hi VertSplit     gui=none   guifg=#F4F3F1 guifg=#F4F3F1 ctermfg=white ctermfg=white
 
-hi Visual		term=reverse		ctermfg=black	ctermfg=black	guifg=#424242		guifg=#424242
+hi Visual		term=reverse		ctermfg=white	ctermfg=white	guifg=#F4F3F1		guifg=#F4F3F1
 
-hi DiffChange	guifg=#424242		guifg=#424242	ctermfg=black	ctermfg=black
-hi DiffText		guifg=#424242		guifg=#424242		ctermfg=black	ctermfg=black
-hi DiffAdd		guifg=#424242		guifg=#424242		ctermfg=black		ctermfg=black
-hi DiffDelete   guifg=#424242			guifg=#424242	ctermfg=black		ctermfg=black
+hi DiffChange	guifg=#F4F3F1		guifg=#F4F3F1	ctermfg=white	ctermfg=white
+hi DiffText		guifg=#F4F3F1		guifg=#F4F3F1		ctermfg=white	ctermfg=white
+hi DiffAdd		guifg=#F4F3F1		guifg=#F4F3F1		ctermfg=white		ctermfg=white
+hi DiffDelete   guifg=#F4F3F1			guifg=#F4F3F1	ctermfg=white		ctermfg=white
 
-hi Folded		guifg=#424242		guifg=#424242		ctermfg=black		ctermfg=black
-hi FoldColumn	guifg=#424242		guifg=#424242	ctermfg=black		ctermfg=black
-hi cIf0			guifg=#424242			ctermfg=black
+hi Folded		guifg=#F4F3F1		guifg=#F4F3F1		ctermfg=white		ctermfg=white
+hi FoldColumn	guifg=#F4F3F1		guifg=#F4F3F1	ctermfg=white		ctermfg=white
+hi cIf0			guifg=#F4F3F1			ctermfg=white
 
 
